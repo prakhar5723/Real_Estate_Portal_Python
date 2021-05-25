@@ -1,5 +1,5 @@
 """
-WSGI config for btre project.
+WSGI config for Real Estate Portal.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'btre.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'real_estate_portal.settings')
 
 application = get_wsgi_application()
